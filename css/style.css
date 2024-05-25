@@ -17,10 +17,121 @@
 }
 
 
+body {
+    font-family: var(--font-raleway);
+    margin: 0;
+}
+
+.container {
+    width: 1352px;
+    margin: 0 auto;
+}
+
+/* ------- */
+/* MENU */
+/* ------- */
+
+header {
+    height: 70px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.logo h1 {
+    color: var(--color-primary);
+    font-size: 32px;
+    font-weight: 300;
+
+}
+
+.main__nav ul a{
+    font-size: 11px;
+    padding: 25px;
+    font-family: var(--font-open-sans);
+    font-weight: bold;
+    color: var(--color-grey);
+    
+}
+
+.main__nav a:hover,
+.main__nav a:active {
+    color: var(--color-black);
+    border-bottom: 4px solid var(--color-primary);
+}
+
+.main__nav ul{
+    display: flex;
+   
+}
+
+.main__nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* --------- */
+/* MAIN */
+/* ------ */
+
+.main {
+    height: calc(100vh - 70px - 130px);
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main__container {
+    display: flex;
+    justify-content: center;
+}
+
+.content h1 {
+    font-size: 49px;
+    font-family: var(--font-raleway);
+    color: var(--color-black);
+}
+
+.content p {
+    font-size: 16px;
+    font-family: var(--font-open-sans);
+    margin-top: 20px;
+}
+
+.content a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-white);
+    width: 440px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 
+.button__main {
+    background-color: var(--color-primary);
+    width: 440px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin:  auto;
+    border-radius: 50px;
+    box-shadow: 5px 10px 14px #07ACE629;
+    margin-top: 38px;
+    margin-bottom: 10px;
+}
 
-/* font-family: "Open Sans", sans-serif; */
-
-/* font-family: "Raleway", sans-serif;
- */
