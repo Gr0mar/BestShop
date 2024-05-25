@@ -82,7 +82,7 @@ header {
 /* ------ */
 
 .main {
-    height: calc(100vh - 70px - 130px);
+    min-height: calc(100vh - 70px - 130px);
     margin-top: 130px;
     display: flex;
     justify-content: center;
@@ -135,3 +135,332 @@ header {
     margin-bottom: 10px;
 }
 
+/* ------ */
+/* POPULAR */
+/* ------ */
+
+.popular {
+    width: 100%;
+    min-height: 531px;
+    display: flex;
+    align-items: center;
+}
+
+.main__popular h1 {
+    text-align: center;
+    font-size: 36px;
+    color: var(--color-black);
+
+}
+
+
+/* CARDS */
+
+.popular__cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 273px;
+}
+
+
+
+.first__bg {
+    background-color: #FB3B64;
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first__bg img {
+    margin-left: 48px;
+    width: 44px;
+    height: 52px;
+}
+
+
+.second__bg {
+    background-color: #08A6E4;
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second__bg img {
+    margin-left: 48px;
+    width: 44px;
+    height: 52px;
+}
+
+
+
+.last__bg {
+    background-color: #55DFB4;
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last__bg img {
+    margin-left: 48px;
+    width: 44px;
+    height: 52px;
+}
+
+.popular__cards h2 {
+    margin-top: 13px;
+    font-size: 20px;
+    font-family: var(--font-raleway);
+    font-weight: 800;
+    letter-spacing: 5.96px;
+}
+
+.popular__cards p {
+    margin-top: 19px;
+    font-size: 1rem;
+    color: var(--color-grey);
+    font-family: var(--font-raleway);
+    
+}
+
+
+/* -------- */
+/*  CONTENT BOXES  */
+/* --------- */
+
+.bg__container {
+    width: 100%;
+    height: 1395px;
+    background-color: #F7F7F7;
+   
+}
+
+.boxes__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* FIRST */
+
+.first__card {
+    width: 1124px;
+    height: 370px;
+    background-color: var(--color-white);
+    border: 1px solid #E8E9ED;
+    margin-top: 100px; 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first__content {
+    width: 416px;
+    height: 188px;
+    margin-left: 35px;
+}
+
+.first__content::after {
+    content: "";
+    display: block;
+    margin-top: 50px;
+    width: 328px;
+    height: 4px;
+    background-color: #FB3B64;
+    
+    
+}
+
+.first__content h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--color-black);
+    font-family: var(--font-raleway);
+}
+
+.first__content p {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-open-sans);
+    color: var(--color-black);
+    line-height: 22px;
+    width: 50ch;
+}
+
+.first__card img {
+    margin-top: 50px;
+    margin-right: 118px;
+    width: 386px;
+    height: 219px;
+}
+
+
+.mackbook__background {
+    width: 255px;
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    background-color: #FB3B64;
+
+    border-radius: 41px;
+    margin-right: 200px;
+
+}
+
+/* SECOND */
+.second__card {
+    width: 1124px;
+    height: 370px;
+    background-color: var(--color-white);
+    border: 1px solid #E8E9ED;
+    margin-top: 37px; 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second__content {
+    width: 416px;
+    height: 188px;
+    margin-right: 35px;
+   
+}
+
+.second__content::after {
+    content: "";
+    display: block;
+    margin-top: 50px;
+    width: 328px;
+    height: 4px;
+    background-color: #08A6E4;
+
+    
+    
+}
+
+.second__content h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--color-black);
+    font-family: var(--font-raleway);
+}
+
+.second__content p {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-open-sans);
+    color: var(--color-black);
+    line-height: 22px;
+    width: 50ch;
+}
+
+.second__card img {
+    margin-top: 15px;
+    margin-left: 110px;
+    width: 426px;
+    height: 328px;
+}
+
+.iphone__background {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    background-color: #07ACE6;
+    margin-left: 70px;
+    border-radius: 50%;
+    margin-right: 200px;
+
+}
+
+/* LAST  */
+
+.last__cards {
+    width: 1124px;
+    height: 370px;
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left__card h1 {
+    font-size: 36px;
+    font-family: var(--font-raleway);
+    font-weight: 500;
+
+    width: 348px;
+    height: 84px;
+
+    margin-top: 69px;
+    margin-left: 35px;
+
+    
+
+}
+
+.left__card p {
+    font-size: 16px;
+    font-family: var(--font-open-sans);
+    color: var(--color-black);
+    line-height: 22px;
+    font-weight: 600;
+    height: 72px;
+    margin-top: 30px;
+    margin-left: 35px;
+    padding: 10px;
+    
+}
+
+.left__card p::after {
+    content: "";
+    display: block;
+    margin-top: 50px;
+    width: 328px;
+    height: 4px;
+    background-color: var(--color-green);
+
+}
+
+.left__card {
+    width: 623px;
+    height: 370px;
+    border: 1px solid #E8E9ED;
+    background-color: var(--color-white);
+}
+
+
+.right__card {
+    background-color: var(--color-green);
+    width: 440px;
+    height: 370px;
+}
+
+.right__card img {
+    width: 296px;
+    height: 208px;
+    margin-left: 62px;
+    margin-top: 98px;
+}
+
+/* ---------- */
+/* PRICING */
+/* -------- */
+
+.pricing h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 100px;
+}
