@@ -309,15 +309,26 @@ header {
 
 
 .mackbook__background {
-    width: 255px;
-    height: 255px;
-    display: flex;
-    justify-content: center;
-    background-color: #FB3B64;
-    border-radius: 41px;
-    margin-right: 200px;
-
+    position: relative;
 }
+
+.mackbook__background img {
+   z-index: 1;
+   position: relative;
+}
+
+.mackbook__background::before {
+    content: "";
+    background: #FB3B64;
+    width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 41px;
+    position: absolute;
+    top: 0px;
+    right: 120px;
+    transform: rotate(45deg);
+  }
 
 
 /* SECOND */
